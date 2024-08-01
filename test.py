@@ -74,7 +74,7 @@ while True:
 base_ip = "{}.{}.{}".format(*ip.split(".")[:3])
 
 # Iterate over last octet to scan the whole subnet
-for i in range(256):
+for i in range(10):
     ip_scan = "{}.{}".format(base_ip, i)
     print("Scanning " + ip_scan)
     response = os.popen("sudo nmap -sS {}".format(ip_scan)).read()

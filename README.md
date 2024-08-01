@@ -12,6 +12,7 @@
     - [on RedHat based systems](#on-redhat-based-systems)
     - [on Arch based systems](#on-arch-based-systems)
     - [on fedora based systems](#on-fedora-based-systems)
+    - [Setup the script](#setup-the-script)
     - [How to use it ?](#how-to-use-it-)
   - [Warning](#warning)
 
@@ -72,7 +73,24 @@ After you have installed Nmap and Python3 you can install the script by running 
 
 ```bash
 git clone https://github.com/Moineau54/nhvss_python.git
+cd PatH/TO/nhvss_python
 ```
+
+### Setup the script
+
+Now, if you're on linux or Mac, first make the script executable by running the following command:
+
+```bash
+chmod +x install_linux_mac.sh
+```
+
+Then run the script by running the following command:
+
+```bash
+./install_linux_mac.sh
+```
+
+If you're on Windows, run the **install_win.bat** file.
 
 ### How to use it ?
 
